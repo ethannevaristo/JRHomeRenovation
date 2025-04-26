@@ -1,132 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JR Home Reno</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #004A99;
-            padding: 20px;
-            color: white;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #003366;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            display: block;
-        }
-        nav a:hover {
-            background-color: #002244;
-        }
-        section {
-            padding: 40px;
-            max-width: 1000px;
-            margin: auto;
-            background: white;
-            margin-top: 20px;
-            border-radius: 8px;
-        }
-        footer {
-            background-color: #003366;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-        .gallery img {
-            width: 100%;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        .contact-form button {
-            background-color: #004A99;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .contact-form button:hover {
-            background-color: #002244;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JR Home Reno | Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
-    <h1>JR Home Reno</h1>
-    <p>Building Your Dreams Into Reality</p>
+  <h1>JR Home Reno</h1>
+  <p>Transforming Houses into Dream Homes</p>
 </header>
-
 <nav>
-    <a href="#about">About Us</a>
-    <a href="#services">Services</a>
-    <a href="#work">Our Work</a>
-    <a href="#contact">Contact Us</a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="services.html">Services</a>
+  <a href="work.html">Our Work</a>
+  <a href="testimonials.html">Testimonials</a>
+  <a href="contact.html">Contact</a>
+  <a href="blog.html">Blog</a>
+  <a href="quote.html">Get a Quote</a>
 </nav>
-
-<section id="about">
-    <h2>About Us</h2>
-    <p>JR Home Reno is your trusted partner in home renovations. With years of experience, we transform homes with expert craftsmanship, attention to detail, and a commitment to quality. Whether it's a kitchen remodel, a bathroom upgrade, or a full home renovation, we deliver stunning results you'll love.</p>
+<section class="hero">
+  <h1>Welcome to JR Home Reno</h1>
+  <p>Expert Craftsmanship. Personalized Service. Exceptional Results.</p>
+  <a href="quote.html" class="btn-primary">Request a Free Quote</a>
 </section>
-
-<section id="services">
-    <h2>Our Services</h2>
-    <ul>
-        <li>Kitchen Renovations</li>
-        <li>Bathroom Remodeling</li>
-        <li>Basement Finishing</li>
-        <li>Exterior Renovations</li>
-        <li>Custom Carpentry</li>
-        <li>Home Additions</li>
-    </ul>
+<section>
+  <h2>Our Specialties</h2>
+  <div class="highlight">
+    <div><h3>Kitchen Renovations</h3><p>Modern, functional designs tailored to your lifestyle.</p></div>
+    <div><h3>Bathroom Remodeling</h3><p>Luxurious spaces combining style and comfort.</p></div>
+    <div><h3>Basement Finishing</h3><p>Transform underutilized spaces into dream retreats.</p></div>
+  </div>
 </section>
-
-<section id="work">
-    <h2>Our Previous Work</h2>
-    <div class="gallery">
-        <img src="work1.jpg" alt="Previous Project 1">
-        <img src="work2.jpg" alt="Previous Project 2">
-        <img src="work3.jpg" alt="Previous Project 3">
-    </div>
+<section>
+  <h2>Why Choose Us?</h2>
+  <ul>
+    <li>Over 15 years of industry experience</li>
+    <li>Fully licensed and insured</li>
+    <li>Transparent pricing and timelines</li>
+    <li>High-quality craftsmanship guaranteed</li>
+  </ul>
+  <a href="about.html" class="btn-primary">Learn More About Us</a>
 </section>
-
-<section id="contact">
-    <h2>Contact Us</h2>
-    <form class="contact-form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <input type="text" placeholder="Subject" required>
-        <textarea rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
-</section>
-
 <footer>
-    <p>&copy; 2025 JR Home Reno. All rights reserved.</p>
+  <p>&copy; 2025 JR Home Reno. All rights reserved.</p>
 </footer>
-
 </body>
 </html>
